@@ -6,19 +6,13 @@ body,html{
 }
 
 
-#topo_tela{
+#conteiner_menu_principal{
     background-color: #d4d0cc;
     float: right;
     width: 100%;
     position: fixed;
+    z-index: 1000;
 }
-/*
-#topo_tela .logo img{
-    float: left;
-    width: 210px;
-    height: 150px;
-}
-*/
 
 #menu_principal{
     float: right;
@@ -34,7 +28,7 @@ body,html{
 }
 a{
     text-decoration: none;
-    color: #5e5f4b;
+    color: #fff;
 }
 #menu_principal ul a{
     color: #5e5f4b;
@@ -52,6 +46,21 @@ a{
     background: #2885bf;
     color: #fff;
 }
+
+.titulo_foto{
+    position: relative;
+    opacity: 1;
+    top: 45%;
+    text-align: center;
+    left: 0px;
+}
+.titulo_foto span{
+    background-color: grey;
+    padding: 10px;
+    font-size: 2em;
+
+}
+
 
 /*Imagem grande*/
 .foto1,.foto2{
@@ -74,6 +83,7 @@ a{
     background: #fff;
 }
 
+
 .conteudo_texto_imagem{
     width: 70%;
     margin: 0 auto;
@@ -95,15 +105,20 @@ a{
 
 #conteiner_rodape{
     background: #111;
-
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
 }
 
 #conteudo_rodape{
-    clear: both;
-    color: #fff;
-    margin: 0 auto;
     width: 70%;
-    padding: 10px 0 10px 0;
-    
+    margin: 0 auto;
+}
+#conteudo_rodape div.conteudo_direita{
+    float: right;
+    line-height: 55px;
 }
 
+#conteudo_rodape div.conteudo_esquerda{
+    float: left;
+}
