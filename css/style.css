@@ -3,12 +3,11 @@ body,html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     height: 100%;
-    background-color: aquamarine;
 }
 
 
 #topo_tela{
-    background-color: gray;
+    background-color: #d4d0cc;
     float: right;
     width: 100%;
     position: fixed;
@@ -35,30 +34,76 @@ body,html{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #5e5f4b;
 }
 #menu_principal ul a{
-    color: #fff;
+    color: #5e5f4b;
     padding: 1em;
-    background-color: grey;
+    background-color: #d4d0cc;
 }
 #menu_principal ul a:hover{
-        background: blueviolet;
-        color: aqua;
+        background: #2885bf;
+        color: #fff;
+}
+
+#home #menu_principal li a.home,
+#pontos_historicos li a.pontos_historicos,
+#praias li a.praias{
+    background: #2885bf;
+    color: #fff;
 }
 
 /*Imagem grande*/
-.conteudo1, .conteudo3, .conteudo5{
-    background-color: blueviolet;
+.foto1,.foto2{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     background-attachment: fixed;
-   
+}
+#home div.foto1{
+    background-image: url(../imagens/natal.jpg);
+}
+#home div.foto2{
+    background-image: url(../imagens/pontos_natal.jpg);
+    opacity: 0.7;
+}
+
+
+.fundo_texto_imagem{
+    background: #fff;
+}
+
+.conteudo_texto_imagem{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    color: black;
+    opacity: 0.7;
+}
+
+.conteudo_direita{
+    margin-left: 20px;
+    padding: 10px;
+}
+.conteudo_esquerda{
+    padding: 10px;
+}
+
+
+
+
+#conteiner_rodape{
+    background: #111;
 
 }
-.conteudo1{
-    background-image: url(../imagens/natal.jpg);
+
+#conteudo_rodape{
+    clear: both;
+    color: #fff;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0 10px 0;
+    
 }
 
