@@ -80,26 +80,29 @@ a{
 }
 
 
-.fundo_texto_imagem{
-    background: rgb(81, 154, 200);
+.fundo_texto{
+    background: #faf0e6;
 }
 
 
-.conteudo_texto_imagem{
+.conteudo_texto{
     width: 70%;
     margin: 0 auto;
-    display: flex;
-    color: #fff;
     opacity: 1;
+    color: #00bcd4;
+    padding: 5%;
+    font-family: roboto, sans-serif;
 }
 
-.conteudo_direita{
-    margin-left: 20px;
-    padding: 10px;
+.conteudo_texto h1{
+    font-size: 2em;
+    text-align: center;
 }
-.conteudo_esquerda{
-    padding: 10px;
+.conteudo_texto p{
+    text-align: justify;
 }
+
+
 
 
 
