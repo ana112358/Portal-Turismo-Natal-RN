@@ -26,14 +26,12 @@ body,html{
     display: flex;
     float: left;    
 }
-a{
-    text-decoration: none;
-    color: #fff;
-}
+
 #menu_principal ul a{
     color: #fff;
     padding: 1em;
     background-color:rgb(81, 154, 200);
+    text-decoration: none;
 }
 #menu_principal ul a:hover{
         background: rgb(40, 133, 191);
@@ -97,13 +95,15 @@ div #destaques{
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    padding:0;
+    padding:2%;
+    background-color: bisque;
+    border: rgb(230, 200, 165) 1px solid;
 }
 
 .mini_destaque img{
     width: 50%;
     float: left;
+    opacity: 0.7;
 }
 
 .mini_destaque p{
@@ -116,6 +116,11 @@ div #destaques{
 .conteudo_mini_destaque {
     float: right; 
     width: 45%;
+    color: #707070;
+}
+
+.mini_destaque a{
+    color: rgb(164, 133, 94);
 }
 .conteudo_texto{
     width: 70%;
