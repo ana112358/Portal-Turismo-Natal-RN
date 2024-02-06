@@ -84,7 +84,39 @@ a{
     background: #faf0e6;
 }
 
+div #destaques{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
 
+/*Mini destaque com foto e link para a matéria*/
+
+.mini_destaque{
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding:0;
+}
+
+.mini_destaque img{
+    width: 50%;
+    float: left;
+}
+
+.mini_destaque p{
+    font-size: 0.8em;
+}
+.mini_destaque h3{
+    font-size: 0.8em;
+    margin-top: 0;
+}
+.conteudo_mini_destaque {
+    float: right; 
+    width: 45%;
+}
 .conteudo_texto{
     width: 70%;
     margin: 0 auto;
