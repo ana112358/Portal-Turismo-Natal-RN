@@ -5,7 +5,7 @@ body,html{
     height: 100%;
 }
 
-
+/*Estilizando o menu flutuante*/
 #conteiner_menu_principal{
     background-color:rgb(81, 154, 200);
     float: right;
@@ -45,6 +45,8 @@ body,html{
     color: #fff;
 }
 
+/*título da imagem com paralax*/
+
 .titulo_foto{
     position: relative;
     opacity: 1;
@@ -61,7 +63,7 @@ body,html{
 }
 
 
-/*Imagem grande*/
+/*Imagem grande com paralax*/
 .foto1,.foto2{
     height: 100%;
     background-repeat: no-repeat;
@@ -69,6 +71,8 @@ body,html{
     background-position: bottom;
     background-attachment: fixed;
 }
+
+/*imagem Paralax da aba Home*/
 #home div.foto1{
     background-image: url(../imagens/natal.jpg);
 }
@@ -77,10 +81,11 @@ body,html{
     opacity: 0.7;
 }
 
-
+/*Fundo do conteúdo texto entre as fotos com efeito Paralax*/
 .fundo_texto{
     background: #faf0e6;
 }
+
 
 div #destaques{
     width: 100%;
@@ -89,7 +94,6 @@ div #destaques{
 }
 
 /*Mini destaque com foto e link para a matéria*/
-
 .mini_destaque{
     width: 300px;
     height: 100px;
@@ -122,6 +126,8 @@ div #destaques{
 .mini_destaque a{
     color: rgb(164, 133, 94);
 }
+
+/*Conteúdo do texto entre as fotos com o efeito pparalax*/
 .conteudo_texto{
     width: 70%;
     margin: 0 auto;
@@ -139,18 +145,13 @@ div #destaques{
     text-align: justify;
 }
 
-
-
-
-
-
+/*Rodape*/
 #conteiner_rodape{
     background:rgb(81, 154, 200);
     color: #fff;
     width: 100%;
     overflow: hidden;
 }
-
 #conteudo_rodape{
     width: 70%;
     margin: 0 auto;
