@@ -88,9 +88,9 @@ body,html{
 
 
 div #destaques{
-    width: 100%;
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 /*Mini destaque com foto e link para a matéria*/
