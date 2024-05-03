@@ -6,13 +6,18 @@ body,html{
 }
 
 
+h1.logo{
+    color: #fff;font-weight: normal;
+    letter-spacing: 3px;
+    font-family: OCR A Std, monospace;
+}
 /* menu responsivo*/
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: #519ac8;
-    height: 10vh;
+    height: 6vh;
 }
 
 .nav-list{
@@ -23,7 +28,6 @@ nav{
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
-    opacity: 1;
 }
 
 .mobile-menu{
@@ -47,9 +51,9 @@ nav{
     }
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 3vh;
         right: 0;
-        width: 50vw;
+        width: 30vw;
         height: 92vh;
         background-color: #519ac8;
         flex-direction: column;
