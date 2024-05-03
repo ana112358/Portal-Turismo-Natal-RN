@@ -71,6 +71,8 @@ nav{
     .nav-list.active{
         transform: translateX(0);
     }
+
+
     @keyframes navLinkFade{
         from{
             opacity: 0;
@@ -213,14 +215,19 @@ div #destaques{
     overflow: hidden;
 }
 #conteudo_rodape{
+    display: flex;
+    justify-content: space-around;
     width: 70%;
     margin: 0 auto;
 }
 #conteudo_rodape div.conteudo_direita{
-    float: right;
+   
     line-height: 55px;
 }
 
-#conteudo_rodape div.conteudo_esquerda{
-    float: left;
+
+.icone{
+    margin: 10px;
+    margin-top: 10px;
+ 
 }
