@@ -49,6 +49,7 @@ nav{
     body {
         overflow-x: hidden;
     }
+
     .nav-list{
         position: absolute;
         top: 5vh;
@@ -70,6 +71,9 @@ nav{
     }
     .nav-list.active{
         transform: translateX(0);
+    }
+    #home div.foto1{
+        background-image: url(../imagens/natal.png) !important; 
     }
 
 
@@ -136,7 +140,7 @@ nav{
 
 /*imagem Paralax da aba Home*/
 #home div.foto1{
-    background-image: url(../imagens/natal.png);
+    background-image: url(../imagens/nome_natal.jpg);
 }
 #home div.foto2{
     background-image: url(../imagens/pontos_natal.jpg);
