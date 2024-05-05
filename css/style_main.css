@@ -47,7 +47,7 @@ nav{
 
 @media (max-width:999px ){
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
     .nav-list{
@@ -225,7 +225,7 @@ div #destaques{
     margin: 0 auto;
 }
 #conteudo_rodape div.conteudo_direita{
-   
+   display: flex;
     line-height: 55px;
 }
 
