@@ -2,43 +2,56 @@ body{
     background-color: antiquewhite;
 }
 
-.conteinerFotos{
+
+.carrossel{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+}
+.conteudo_carrossel{
+    width: 400%;
     display: flex;
+    height: auto;
+}
+
+.conteudo_carrossel input, .img_mobile{
+    display: none;
+}
+
+.caixa-carrossel{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.caixa-carrossel img{
+    width: 100%;
+}
+.nav-manual, .nav-auto{
+    display: flex;
+    position: absolute;
+    width:100%;
+    margin-top: 23%;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.fotoDestaque{
-    width: 200px;
-    height: 350px;
-    margin-top: 100px;
-    margin-left: 30px;
-    border-radius: 5pc;
-    box-shadow: 2px 2px 2px grey;
+.nav-manual .manual_but, .nav-auto div{
+    border: 1px solid rgb(81, 154, 200);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+
 }
-
-.fotoDestaque1{
-        background-image: url(../imagens/destaque_forte_reis_magos.png);
-        opacity: 0.8;
+.nav-manual .manual_but:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
 }
-
-.fotoDestaque2{
-    background-image: url(../imagens/destaque_rua_chile.png);
+.nav-manual .manual_but:hover{
+    background-color: rgb(81, 154, 200) ;
 }
-
-.fotoDestaque3{
-    background-image: url(../imagens/destaque_igreja_matriz.png);
-}
-.fotoDestaque4{
-    background-image: url(../imagens/destaque_rua_chile.png);
-}
-
-.fotoDestaque5{
-    background-image: url(../imagens/destaque_igreja_matriz.png);
-}
-
-
-
 
 .fundo_artigo{
     width: 80%;  
