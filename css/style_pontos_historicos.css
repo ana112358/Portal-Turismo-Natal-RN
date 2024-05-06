@@ -25,6 +25,7 @@ body{
     height: auto;
     position: relative;
     text-align: center;
+    transition: 1s;
 }
 
 .caixa-carrossel img{
@@ -51,6 +52,40 @@ body{
 }
 .nav-manual .manual_but:hover{
     background-color: rgb(81, 154, 200) ;
+}
+
+
+#botao1:checked ~ .nav-auto .auto_but1{
+    background-color: rgb(81, 154, 200);
+}
+#botao2:checked ~ .nav-auto .auto_but2{
+    background-color: rgb(81, 154, 200);
+}
+#botao3:checked ~ .nav-auto .auto_but3{
+    background-color: rgb(81, 154, 200);
+}
+
+#botao1:checked ~ .primeira{
+    margin-left: 0%;
+}
+#botao2:checked ~ .primeira{
+    margin-left: -25%;
+}
+#botao3:checked ~ .primeira{
+    margin-left: -50%;
+}
+
+@media  screen and (max-width: 990px) {
+    .img_desktop{
+        display: none;
+    }
+    .img_mobile{
+        display: block;
+    }
+    .nav-auto, .nav-manual{
+        margin-top: 48%;
+    }
+    
 }
 
 .fundo_artigo{
