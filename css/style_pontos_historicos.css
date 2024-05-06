@@ -84,7 +84,10 @@ body{
         display: block;
     }
     .nav-auto, .nav-manual{
-        margin-top: 52%;
+        margin-top: 60%;
+    }
+    .caixa-carrossel{
+        margin-top: 3%;
     }
 
     
