@@ -6,7 +6,7 @@ document.getElementById('botao1').checked = true;
 
 setInterval(() =>{
     proximaImg()
-},5000);
+},4000);
 
 function proximaImg(){
     cont++;
